@@ -35,7 +35,7 @@ body {
   background-color: #fff;
   padding: 2rem;
   border-radius: 2rem;
-  max-width: 33rem;
+  max-width: 28rem;
 
   display: flex;
   flex-direction: column;
@@ -43,6 +43,10 @@ body {
 
   border: 1px solid var(--Black, #111);
   box-shadow: 8px 8px 0px 0px #000;
+
+  @media screen and (min-width: 900px) {
+    max-width: 33rem;
+  }
 }
 
 .blog-card__image {
@@ -53,6 +57,7 @@ body {
 .blog-card__content {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 1.2rem;
 }
 
@@ -71,6 +76,12 @@ body {
 
 .blog-card__title {
   font-size: 2rem;
+  transition: color 0.1s ease-in;
+  cursor: pointer;
+}
+
+.blog-card__title:hover {
+  color: var(--main-yellow);
 }
 
 .blog-card__description {
