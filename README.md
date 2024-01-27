@@ -12,17 +12,20 @@ Users should be able to:
 
 ## Screenshot
 
-![](./screenshot.jpg)
+![](./completed/complete-image.png)
 
 ## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
 
 ## Author
+
+- Website - [Jake Godsall](https://jakegodsall.com)
+- Frontend Mentor - [@jakegodsall](https://www.frontendmentor.io/profile/jakegodsall)
+- LinkedIn - [@godsalljake](https://www.linkedin.com/in/godsalljake/)
 
 ## License
 
